@@ -15,10 +15,10 @@ class BannerSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class FeaturedHouseSerializer(serializers.ModelSerializer):
+class HouseSerializer(serializers.ModelSerializer):
     class Meta:
         depth = 1
-        model = FeaturedHouse
+        model = House
         fields = '__all__'
 
 
