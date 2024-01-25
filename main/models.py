@@ -27,7 +27,7 @@ class Brand(models.Model):
     logo = models.ImageField(upload_to='brand_logo/')
 
 
-class FeaturedHouse(models.Model):
+class House(models.Model):
     house_img = models.ImageField(upload_to='house_photo/')
     name = models.CharField(max_length=150)
     HOUSE_TYPE = (
